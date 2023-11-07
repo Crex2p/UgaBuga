@@ -1,6 +1,25 @@
-h1{
-    font-size: large;
-    font-weight: 400;
+
+body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    padding: 55px; 
+}
+.headicon{
+    margin-left: 20px;
+    weight: 20px;
+    height: 20px;
+}
+.dubnaphon{
+
+}
+.blackphon{
+    color: black;
+}
+.blackphonsize
+.whitephon{
+    color:white;margin: 0px;
 }
 .logos{
     height: 100px;
