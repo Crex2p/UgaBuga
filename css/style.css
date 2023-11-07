@@ -4,22 +4,30 @@ body{
 }
 header{
     background-color: black;
-    padding: 55px; 
+    padding: 45px; 
 }
 .headicon{
-    margin-left: 20px;
-    weight: 20px;
-    height: 20px;
+    padding: auto;
+    width: 100px;
+    height: auto;
+
 }
 .dubnaphon{
-
+    background-image: url(../images/DD.jpg);
+    background-size: cover;
+    height: 300px;
 }
 .blackphon{
     color: black;
+    padding-top: 10px;
 }
 .blackphonsize
 .whitephon{
-    color:white;margin: 0px;
+    color:white;
+    margin: 0px;
+}
+.icons{
+     
 }
 .logos{
     height: 100px;
