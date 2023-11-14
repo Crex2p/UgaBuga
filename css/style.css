@@ -1,29 +1,48 @@
 
-body{
+body {
     margin: 0;
 }
-header{
+
+header {
     background-color: #65412d;
-    height: 200px; 
-    
+    height: 200px;
+    display: flex;
+    align-items: center;
 }
-h1{
-    margin: 0;
+
+.right-items {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
-h2{
+
+.right-items div {
+    margin-left: 20px;
+}
+
+.right-items div:last-child {
+    margin-right: 100px;
+}
+
+h1 {
     margin: 0;
 }
 
+h2 {
+    margin: 0;
+}
 
-.headicon{
+.headicon {
     width: 100px;
     margin: 50px;
     float: left;
 }
-.headbox{
+
+.headbox {
     border: 70px;
 }
-.menu1{
+
+.menu1 {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -32,7 +51,8 @@ h2{
     background-color: #65412d;
     margin-top: 0;
 }
-.line{
+
+.line {
     border-left: 3px solid #ffa554;
     text-transform: uppercase;
     text-decoration: none;
@@ -40,72 +60,90 @@ h2{
     color: #FFFFFF;
 }
 
-.dubnaphon{
+.dubnaphon {
     background-size: cover;
     background-color: #a5d1cc;
     height: 300px;
 }
 
-.Htext{
+.Htext {
     text-align: center;
     vertical-align: middle;
 }
+
 div.container6 {
     height: 300px;
     background-size: cover;
     background-color: #a5d1cc;
     display: flex;
-    align-items: center;
-    justify-content: space-around }
-  div.container6 h1 h2 {
-    margin: 0 }
-.blackphon{
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.block-info-text {
+    margin-top: 50px;
+}
+
+.block-info-text div {
+    margin-bottom: 50px;
+}
+
+.blackphon {
     color: black;
     padding-top: 10px;
 }
 
-.whitephon{
-    color:#c1b197;
+.whitephon {
+    color: #c1b197;
     height: 300px;
 }
-.fatty_cat{
+
+.fatty_cat {
     width: 460px;
     height: 280px;
 }
-.text1{
+
+.text1 {
     margin-left: 135px;
 }
-.textmargin1{
+
+.textmargin1 {
     margin-left: 135px;
     display: inline-block;
     width: 700px;
 }
-.photo{
+
+.photo {
     height: 150px;
     width: 150px;
     display: inline-block;
 }
 
-.icons{
-     
+.icons {
+
 }
-.logos{
+
+.logos {
     height: 60px;
     width: 60px;
     border-radius: 3px;
 }
-.brown_text{
-    color:#c1b197;
+
+.brown_text {
+    color: #c1b197;
 }
-.white_text{
-    color:#65412d;
+
+.white_text {
+    color: #65412d;
 }
-.foot{
+
+.foot {
     padding: 5px;
     background-color: #fcfcc6;
 }
-.foottext{
-    float:right;
+
+.foottext {
+    float: right;
 }
 
 
