@@ -1,30 +1,8 @@
-
+/* main class */
 body {
     margin: 0;
 }
-
-header {
-    background-color: #65412d;
-    height: 170px;
-    display: flex;
-    align-items: center;
-}
-
-.right-items {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-}
-
-.right-items div {
-    margin-left: 90px;
-}
-
-.right-items div:last-child {
-    margin-right: 200px;
-}
-
-
+/* классы для текста */
 h1 {
     margin: 0;
     font-size: 40px;
@@ -33,7 +11,7 @@ h1 {
 
 h2 {
     margin-top: 20px;
-    margin-left: 380px;
+    margin-left: 400px;
     margin-bottom: 10px;
     font-size: 36px;
     color:#65412d;
@@ -53,6 +31,42 @@ h4{
     text-align: center;
     font-size: larger;
     font-family: sans-serif;
+}
+h5{
+    margin: 10px 0;
+    color: #65412d;
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.brown_text {
+    color: #65412d;
+}
+
+.white_text {
+    color:#65412d;
+    text-shadow: 1px 1px #c1b7ae;   
+}
+/* header classes */
+header {
+    background-color: #65412d;
+    height: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.right-items div {
+    margin-left: 90px;
+}
+
+.right-items div:last-child {
+    margin-right: 50px;
 }
 
 li{
@@ -93,19 +107,23 @@ ul{
     margin-top: 0;
 }
 
-.line {
-    border-left: 3px solid #ffa554;
+.line { 
+    border: 1px solid #65412d;
+    padding: 4px;
+    border-radius: 0.4em;
     text-transform: uppercase;
     text-decoration: none;
     font-family: sans-serif;
-    color: #FFFFFF;
+    color: white;
     transition: color 0.3s;
     font-size: 24px;
 }
 .line:hover{
-    color:#76685e;
+    color:#cec0b4;
+    transition: border 0.3s;
+    border-color: #cec0b4;
 }
-
+/* background photo classes */
 .dubnaphon {
     background-size: cover;
     height: 400px;
@@ -131,7 +149,7 @@ div.container6 {
 
 .block-info-text {
     margin-top: 150px;
-    margin-left: 150px;
+
 }
 div.container6 :last-child{
     margin-right: 0%;
@@ -152,7 +170,7 @@ div.container6 :last-child{
     height: 280px;
     margin-top: 70px;
 }
-
+/* text classes */
 .zatycka{
     margin: 40px 0;
 }
@@ -162,7 +180,6 @@ div.text-block{
     padding: 0 400px;
 }
 .textmargin1 {
-    margin-right: auto;
     display: inline-block;
     width: 900px;
     margin-top: 0;
@@ -175,7 +192,11 @@ div.text-block{
     object-fit: cover;
     display: inline-block;
 }
+.margin_left_cat{
+    margin-left: 200px;
+}
 
+/* competition classes */
 div.icons-block {
     display: flex;
     flex-direction: column;
@@ -206,15 +227,7 @@ div.icons-block {
     margin-left: 15px;
 }
 
-.brown_text {
-    color: #65412d;
-}
-
-.white_text {
-    color:#65412d;
-    text-shadow: 1px 1px #c1b7ae;   
-}
-
+/* service classes */
 .zatycka2{
     padding: 20px 0;
 }
@@ -237,6 +250,7 @@ div.icons-block {
     margin-right: 100px;
 }
 
+/* catfolio classes */
 div.myskills{
     padding: 40px 400px;
     display: flex;
@@ -272,6 +286,7 @@ div.myskills{
     background-color: #fcfcc6;
     color: #65412d;
 }
+/* footer classes */
 .foot {
     display: flex;
     justify-content: space-between;
@@ -291,8 +306,7 @@ div.myskills{
 .foottext {
     font-size: 22px;
     color:#fcfcc6;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 
@@ -300,4 +314,45 @@ div.myskills{
 #ffa554 ( светло оранжевый)
 #fcfcc6 (бледножелтый)
 #c1b197 (бледнокоричневый)
-*/ 
+*/
+/* summery page */
+
+.tableground{
+    padding: 0 400px;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #65412d;
+    table-layout: fixed;
+}
+
+
+/* contacts page */
+
+.contacts-block{
+    display: flex;
+    margin: 50px 100px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.con-block{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 200px;
+    padding:  0px 50px;
+    border: 3px solid #65412d;
+    border-radius: 0.6em;
+    flex-direction: column;
+    justify-content: center;
+}
+.social{
+    display:inline-block;
+    margin: 10px 0;
+}
+.pochta{
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+}
